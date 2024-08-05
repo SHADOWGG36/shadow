@@ -40,12 +40,12 @@ def gradient_text(text, colors):
 
 def banner(console):
     os.system('cls' if os.name == 'nt' else 'clear')
-    brand_name =  " ██████╗██████╗ ███╗   ███╗███╗   ██╗██╗   ██╗██╗  ██╗███████╗██████╗\n"
-    brand_name += "██╔════╝██╔══██╗████╗ ████║████╗  ██║██║   ██║██║ ██╔╝██╔════╝██╔══██╗\n"
-    brand_name += "██║     ██████╔╝██╔████╔██║██╔██╗ ██║██║   ██║█████╔╝ █████╗  ██████╔╝\n"
-    brand_name += "██║     ██╔═══╝ ██║╚██╔╝██║██║╚██╗██║██║   ██║██╔═██╗ ██╔══╝  ██╔══██╗\n"
-    brand_name += "╚██████╗██║     ██║ ╚═╝ ██║██║ ╚████║╚██████╔╝██║  ██╗███████╗██║  ██║\n"
-    brand_name += " ╚═════╝╚═╝     ╚═╝     ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝\n"
+    brand_name =  "░██████╗██╗░░██╗░█████╗░██████╗░░█████╗░░██╗░░░░░░░██╗\n"
+    brand_name += "██╔════╝██║░░██║██╔══██╗██╔══██╗██╔══██╗░██║░░██╗░░██║\n"
+    brand_name += "╚█████╗░███████║███████║██║░░██║██║░░██║░╚██╗████╗██╔╝\n"
+    brand_name += "░╚═══██╗██╔══██║██╔══██║██║░░██║██║░░██║░░████╔═████║░\n"
+    brand_name += "██████╔╝██║░░██║██║░░██║██████╔╝╚█████╔╝░░╚██╔╝░╚██╔╝░\n"
+    brand_name += "╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░░╚════╝░░░░╚═╝░░░╚═╝░░\n"
     colors = [
         "rgb(255,0,0)", "rgb(255,69,0)", "rgb(255,140,0)", "rgb(255,215,0)", "rgb(173,255,47)", 
         "rgb(0,255,0)", "rgb(0,255,255)", "rgb(0,191,255)", "rgb(0,0,255)", "rgb(139,0,255)",
@@ -53,8 +53,8 @@ def banner(console):
     ]
     colorful_text = gradient_text(brand_name, colors)
     console.print(colorful_text)
-    console.print("[bold green] FACEBOOK [/bold green]SHA DOW; Nhật Hào")
-    console.print(f"[bold green]BY:[/bold green]: [bold blue]@{__ADMIN1__}[/bold blue] or [bold blue]@{__ADMIN2__}[/bold blue].")
+    console.print("[bold blue] FACEBOOK [/bold green]SHA DOW; Nhật Hào")
+    console.print(f"[bold red]BY[/bold green]: [bold orange]@{__ADMIN1__}[/bold blue] or [bold orange]@{__ADMIN2__}[/bold blue].")
     console.print("[bold red]==================================================[/bold red]")
     console.print("[bold yellow]Game[/bold yellow]: Car Parking Multiplayer.", end="\n\n")
 
