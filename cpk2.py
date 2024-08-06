@@ -15,7 +15,7 @@ from rich.style import Style
 from cpmnuker import CPMNuker
 
 __ADMIN1__ = "SHADOW"
-__ADMIN2__   = "Hào"
+__ADMIN2__   = "Nhật Hào"
 
 def signal_handler(sig, frame):
     print("\n Bye Bye...")
@@ -53,8 +53,9 @@ def banner(console):
     ]
     colorful_text = gradient_text(brand_name, colors)
     console.print(colorful_text)
-    console.print("[bold green] FACEBOOK [/bold green]SHA DOW; Nhật Hào")
-    console.print(f"[bold green]BY:[/bold green]: [bold blue]@{__ADMIN1__}[/bold blue] or [bold blue]@{__ADMIN2__}[/bold blue].")
+    console.print("[bold green]FACEBOOK: [/bold green]Sha Dow")
+    console.print("[bold green]FACEBOOK: [/bold green]Lê Nguyễn Nhật Hào")
+    console.print(f"[bold green]BY[/bold green]: [bold blue]@{__ADMIN1__}[/bold blue] or [bold blue]@{__ADMIN2__}[/bold blue].")
     console.print("[bold red]==================================================[/bold red]")
     console.print("[bold yellow]Game[/bold yellow]: Car Parking Multiplayer.", end="\n\n")
 
